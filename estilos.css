@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.logo{
+    background-image: url(imagenes/logo.jpg);
+    background-size: 1500px 200px;
+    width: calc(100vw - 20px);
+    height: calc(20vh - 10px);
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    color:white;
+    font-size:100px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu{
+    background-color: aquamarine;
+    width: calc(100vw - 20px);
+    height: calc(10vh - 10px);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 22px;
+    display: inline-block;
+}
+nav ul li a:hover{
+    background-color: #111;
+}
+.slider{
+    background-color: orange;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 10px);
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tabla1{
+    width: calc(100vw - 20px);
+    height: calc(40vh - 10px);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tabla-verde{
+    gap: 10px;
+    width: 50px;
+    height: auto;
+    background-color: rgb(96, 183, 96);
+    flex-grow: 1;
+}
+.messi{
+    width: 753px;
+    height: 267px;
+}
+.text-messi{
+    font-family: monospace;
+    color:white;
+    font-size:20px;
+    padding: 10px;
+}
+.tabla-verde2{
+    flex-grow: 1;
+    width: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.titulo{
+    width: auto;
+    height: 30%;
+    background-color: green;
+}
+.tarjeta1{
+    width: auto;
+    height: 35%;
+    background-color: rgb(8, 252, 110);
+}
+.tarjeta2{
+    width: auto;
+    height: 45%;
+    background-color: rgb(129, 255, 129);
+}
+.tabla2{
+    width: calc(100vw - 20px);
+    height: calc(50vh - 10px);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.tabla-gris{
+    gap: 10px;
+    width: 50px;
+    height: auto;
+    background-color: rgb(120, 120, 120);
+    flex-grow: 1;
+}
+.ney{
+    width: 753px;
+    height: 337px;
+}
+.text-ney{
+    font-family: monospace;
+    color:white;
+    font-size:20px;
+    padding: 10px;
+}
+.text-cris{
+    font-family: monospace;
+    color:white;
+    font-size:20px;
+    padding: 10px;
+}
+.tabla-rosa{
+    gap: 10px;
+    width: 50px;
+    height: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mapa{
+    width: auto;
+    height: 46%;
+    background-color: rgb(100, 16, 96);
+}
+.champ{
+    width:753px;
+    height:152px;
+}
+.formulario{
+    width: auto;
+    height: 50%;
+    background-color: rgb(232, 72, 192);
+}
+.real{
+    width:753px;
+    height:173px;
+}
+.div6{
+    width: calc(100vw - 20px);
+    height: calc(20vh - 10px);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.card{
+    width: 33%;
+    height: 145px;
+    background-color: brown;
+}
+.man{
+    width: 100%;
+    height: 145px;
+}
+.bar{
+    width: 100%;
+    height: 145px;
+}   
+.bayer{
+    width: 300px;
+    height: 145px;
+    margin-left:45px;
+    
+}
+.united{
+    width: 100%;
+    height: 145px;
+
+}
